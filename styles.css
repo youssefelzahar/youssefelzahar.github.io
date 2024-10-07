@@ -32,14 +32,11 @@ html, body {
     overflow-y: auto; /* Enable vertical scrolling */
 }
 
-/* Allow the footer to be at the bottom */
 footer {
-    position: relative;
-    width: 100%;
-    bottom: 0;
-    padding: 20px;
-    background-color: #333;
-    color: white;
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    padding: 20px; /* Adds space inside the footer */
+    text-align: center; /* Centers the text */
 }
 
 /* Add some padding to the bottom to ensure scroll space */
