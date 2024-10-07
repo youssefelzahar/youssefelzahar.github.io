@@ -33,11 +33,15 @@ html, body {
 }
 
 footer {
-    background-color: #000; /* Black background */
-    color: #fff; /* White text */
-    padding: 20px; /* Adds space inside the footer */
-    text-align: center; /* Centers the text */
+    display: flex;
+    flex-direction: column; /* This will align items vertically */
+    align-items: center;    /* Centers the items horizontally */
+    background-color: #000; /* You can adjust this color */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
 }
+
 
 /* Add some padding to the bottom to ensure scroll space */
 main {
