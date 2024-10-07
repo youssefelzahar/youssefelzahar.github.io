@@ -33,7 +33,7 @@ html, body {
 }
 
 footer {
-    display: flex;
+  /*  display: flex;*/
     flex-direction: column; /* This will align items vertically */
     align-items: center;    /* Centers the items horizontally */
     background-color: #000; /* You can adjust this color */
