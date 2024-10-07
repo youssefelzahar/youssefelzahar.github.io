@@ -34,12 +34,13 @@ html, body {
 
 footer {
     display: flex;
-    flex-direction: column; /* This will align items vertically */
-    align-items: center;    /* Centers the items horizontally */
-    background-color: #000; /* You can adjust this color */
+    flex-direction: column;
+    background-color: #000;
     color: #fff;
     padding: 20px;
     text-align: center;
+    writing-mode: vertical-rl; /* Makes the text vertical */
+    transform: rotate(180deg); /* Flips the text upright */
 }
 
 
