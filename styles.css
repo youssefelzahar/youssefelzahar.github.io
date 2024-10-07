@@ -6,10 +6,9 @@ body {
 }
 
 header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    padding: 20px; /* Add some padding if needed */
 }
 
 section {
